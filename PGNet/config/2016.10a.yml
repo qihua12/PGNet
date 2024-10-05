@@ -1,0 +1,17 @@
+epochs: 100
+batch_size: 256
+patience: 20
+milestone_step: 10
+gamma: 0.5
+lr: 0.001
+dataset: '2016.10a'
+
+num_classes: 11
+sig_len: 1
+extend_channel: 36
+latent_dim: 128
+num_heads: 2
+conv_chan_list: [36, 64, 128, 256]
+
+monitor: 'acc'
+test_batch_size: 128
